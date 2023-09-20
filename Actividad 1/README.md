@@ -14,6 +14,13 @@ Aquí se pueden observar dos index y luego algo llamado "my". Lo más interesant
 
 Por último, cuando se validan nuestros datos en el segundo index pasamos a la página principal del moodle, o "my/", donde ya se mostrarán todos los datos que van linkeados al usuario con el que inicié la sesión.
 
+El token es, en este caso, un conjunto de datos encriptados que se envían posteriormente junto a la petición. En mi caso, obtuve este token:
+
+![image](https://github.com/nisemonkey/marc-nombre-despliegue-de-aplicaciones-web/assets/144774706/3fb20e9d-dd96-4eae-95bd-82a14d4980c0)
+
+Esto probablemente es un token de inicio de sesión que se utiliza para identificar y autenticar al usuario en la aplicación web. Su propósito principal es mejorar la seguridad y la experiencia del usuario al evitar que las credenciales de inicio de sesión se envíen en cada solicitud.
+
+
 # Ejercicio 4
 
 ### ¿A qué puerto se reciben normalmente las peticiones del protocolo HTTP? ¿A qué 
