@@ -40,3 +40,20 @@ Location: http://www.example.com/test/index2.php
 
 El código de error 302 indica que el recurso solicitado ha sido desplazado temporalmente a otro URL, que es indicado justo debajo en "Location", donde puede verse la nueva ubicación del recurso.
 
+# Ejercicio 6
+
+### Utilizando el filtro de captura para la interfaz de red de Wireshark, analiza la petición al host: www.google.com. Mostrando la cabecera IP, la dirección IP de tu ordenador y la del servidor. Comprueba que, poniendo esa IP en el navegador, accedas a Google.
+
+Con solamente dejar el wireshark escuchando se puede detectar, entre todo el tráfico de la red, algo que destaca entre el resto:
+
+![image](https://github.com/nisemonkey/marc-nombre-despliegue-de-aplicaciones-web/assets/144774706/49865f7e-501c-4389-b779-efe90c4702d6)
+
+Aquí la IP 142.250.184.2 (IP de google) responde a mi IP cuando accedo a su DNS (google.com). Aquí la demostración de que efectivamente son esas IP.
+
+![image](https://github.com/nisemonkey/marc-nombre-despliegue-de-aplicaciones-web/assets/144774706/45e74bff-6824-45cc-ba17-c6a1c3de6acf)
+
+
+![image](https://github.com/nisemonkey/marc-nombre-despliegue-de-aplicaciones-web/assets/144774706/88c0eab4-c85e-48cd-847f-a56335a3f7dc)
+
+
+
