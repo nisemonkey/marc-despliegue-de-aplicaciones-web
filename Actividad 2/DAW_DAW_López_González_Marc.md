@@ -1,4 +1,4 @@
-![image](https://github.com/nisemonkey/marc-despliegue-de-aplicaciones-web/assets/144774706/94b0ae89-d108-419c-acf3-9eeb9f071b85)#  Administración de servidores web
+#  Administración de servidores web
 
 ## Creación de una máquina Ubuntu e instalación de Apache
 
