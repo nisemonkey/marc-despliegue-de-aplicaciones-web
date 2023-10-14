@@ -34,7 +34,18 @@ Mi conclusión es que con todo radica en lo que escribas dentro del campo "Requi
 
 ### Añadir www con mod_rewrite y .htaccess
 
-Esto por ahora mama bastante porque no me va
+Primero, asegúrate de tener un archivo .htaccess en el directorio raíz de tu sitio web. Si no existe, créalo.
+
+Dentro de .htaccess, añade las siguientes líneas de código para redirigir todas las solicitudes a la versión con "www":
+- RewriteEngine On
+- RewriteCond %{HTTP_HOST} !^www\. [NC]
+- RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+Estas líneas de código activarán el motor de reescritura (RewriteEngine On) y redirigirán las solicitudes que no comienzan con "www" a la versión con "www".
+
+Guarda el archivo .htaccess.
+
+Ahora, todas las solicitudes a tu sitio web se redirigirán automáticamente a la versión con "www". Asegúrate de que estas líneas estén correctamente configuradas y prueba tu sitio para verificar que la redirección funciona como esperas.
 
 ### Personalizar tema de los directorios
 
