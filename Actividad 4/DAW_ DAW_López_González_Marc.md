@@ -12,7 +12,7 @@ Empezaré creando un Ubuntu Server totalmente nuevo, ya que el que había emplea
 - `sudo a2enmod rewrite`
 - `sudo systemctl restart apache2`
 
-Para crera los servidores virtuales, primero crearé la raíz de cada uno y posteriormente copiaré el fichero de configuración que nos da apache2 para poder darle la dirección que yo quiera.
+Para crear los servidores virtuales, primero crearé la raíz de cada uno y posteriormente copiaré el fichero de configuración que nos da apache2 para poder darle la dirección que yo quiera.
 - `sudo mkdir -p /var/www/daw`
 - `sudo mkdir -p /var/www/mlopezg`
 - `sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/daw.conf`
